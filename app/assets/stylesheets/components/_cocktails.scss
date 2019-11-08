@@ -1,0 +1,27 @@
+.fullpage {
+  height: 100vh;
+  // background-size: cover;
+  background-image: url('logo.png');
+}
+.title {
+  color: pink;
+  border: solid 2px #cccccc;
+  font-family: 'Poiret One', cursive;
+  height: 50vh;
+  text-align: center;
+  padding-top: 20vh;
+}
+.subtitle {
+  color: cyan;
+  background-color: #aaaaaa;
+  font-family: 'Poiret One', cursive;
+}
+.drink {
+  background-color: #888888;
+}
+.cdetails {
+  font-family: 'Poiret One', cursive;
+  font-weight: 16px;
+  background-color: #666666;
+  color: white;
+}

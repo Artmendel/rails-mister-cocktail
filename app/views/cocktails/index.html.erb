@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Looping Papaye</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class=fullpage>test</div>
+      <h1 class="title">Looping Papaye</h1>
+      <h2 class="subtitle">Cocktails</h2>
+      <div class="drink">
+        <div class="card" style="width: 18rem;">
+          <div class="container">
+            <div class="row justify-content-center cdetails">
+              <div class="col-6">
+                <ul>
+                  <% @cocktails.each do |cocktail| %>
+                  <li><%= cocktail.name %> - <%= link_to 'Voir', cocktail_path(cocktail) %></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
